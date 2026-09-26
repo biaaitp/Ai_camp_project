@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib
 
-model = joblib.load('Ai_camp.pkl')
+model = joblib.load('AI_Camp.pkl')
 
 st.title("🍔 What Category Is It?")
 
